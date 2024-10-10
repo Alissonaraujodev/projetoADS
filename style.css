@@ -1,0 +1,71 @@
+body{
+    width: 90vw;
+    
+    border: 1px solid black;
+    padding: 10px;
+    margin:auto;
+}
+header{
+    border: 1px solid black;
+    padding: 10px;
+    margin:-10px -10px 10px -10px
+}
+header h1{
+    text-align: center;
+}
+#historiaEmpresa{
+    border: 1px solid black;
+    padding: 10px;
+    margin:auto;
+}
+main{
+    border: 3px solid rgb(161, 42, 42);
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+    margin:auto;
+    display: block;
+    position: relative;
+    padding-bottom: 58%;
+}
+aside{
+    border: 3px solid rgb(44, 148, 24);
+    border-radius: 10px;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    width: 28%;
+    height: 90%; 
+}
+aside>p,h2{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+}
+#containerAtvDet{
+    border: 3px solid rgb(28, 71, 151);
+    border-radius: 10px;
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    width: 65%;
+    height: 90%;
+}
+.atvDet{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#fotosDosTrabalhos{
+    border: 1px solid black;
+    padding: 10px;
+    margin:auto;
+}
+footer{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px -10px -10px -10px
+}
+
