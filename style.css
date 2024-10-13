@@ -1,9 +1,19 @@
+:root{
+    --verdeClaro: rgba(70, 167, 180, 0.5);
+    --azulClaro: rgb(192, 206, 208);
+    --azulEscuro: rgb(1, 31, 60);
+    --preto: rgba(0, 0, 0, 0.5);
+    --branco: rgba(255, 255, 255, 0.9);
+}
+
 body{
-    width: 85vw;
-    border: 1px solid black;
+    width: 90vw;
+    border: 1px solid var(--preto);
+    border-left: none;
+    border-right: none;
     padding: 10px;
     margin:auto;
-    background-color: #C0CED0;
+    background-color: var(--azulClaro);
 }
 header{
     padding: 10px;
@@ -12,75 +22,79 @@ header{
     padding-bottom: 15%;
 }
 #logotipo>img{
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     position: absolute;
     top: 0%;
     left: 0%;
-    width: 30%;
+    width: 28%;
     height: 100%;
 
 }
 header h1{
     text-align: center;
     font-size: 4em;
-    color: #011F3C; 
+    color: var(--azulEscuro); 
     position: absolute;
     top: 5%;
-    right: 20%;
-    width: 60%;
+    right: 23%;
+    width: 50%;
     height: 90%;
   
 }
 #historiaEmpresa{
     padding: 10px;
     margin:auto;
-    border: 3px solid rgba(0, 0, 0, 0.3);
+    border: 3px solid var(--preto);
     border-radius: 10px;
     
 }
 #paginaPrincipal{
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 10px;
     padding: 10px;
     margin:auto;
     display: block;
     position: relative;
     padding-bottom: 50%;
+    border: 1px solid var(--preto);
+    margin: 10px -10px -10px -10px
 }
 aside{
-    border: 3px solid rgba(0, 0, 0, 0.3);
+    border: 3px solid var(--preto);
     border-radius: 10px;
     position: absolute;
     top: 5%;
-    right: 2%;
+    right: 5%;
     width: 28%;
     height: 90%; 
-    background-color: rgba(70, 167, 180, 0.5);
+    background-color: var(--verdeClaro);
 }
 aside>p,h2{
     padding: 5px;
-    border: 1px solid black;
+    border: 1px solid var(--preto);
     border-radius: 5px;
     margin: 5px;
 }
 #containerHistoria{
-    font-size: 1.5em;
+    font-size: 1.1em;
     border-radius: 10px;
     position: absolute;
     top: 5%;
-    left: 2%;
-    width: 65%;
+    left: 5%;
+    width: 60%;
     height: 90%;
-    border: 3px solid rgba(0, 0, 0, 0.3);
+    border: 3px solid var(--preto);
     border-radius: 10px;
-    background-color: rgba(70, 167, 180, 0.5);
+    background-color: var(--verdeClaro);
 }
 #containerHistoria>p{
     margin: 10px;
 }
 
 footer{
-    border: 1px solid black;
+    border: 1px solid var(--preto);
+    border-left: none;
+    border-right: none;
     padding: 10px;
     margin: 10px -10px -10px -10px
 }
