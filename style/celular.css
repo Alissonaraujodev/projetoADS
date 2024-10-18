@@ -1,4 +1,10 @@
-
-body{
-    background-color: blue;
+@charset "UTF-8";
+:root{
+    --azulNuvemLogo: #27ffdb57;
+    --azulFonteLogo: #0b2c2ec7;
+    --preto: #000000;
+    --branco: #eeeeee;
+}
+img{
+    background-color: var(--azulFonteLogo);
 }
