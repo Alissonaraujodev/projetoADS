@@ -1,0 +1,46 @@
+body.dark{
+    background-color: #fffbfb;
+    transition: 0.7;
+}
+body.dark h1{
+    color: black;
+}
+body.dark h2{
+    color: black;
+}
+body.dark h3{
+    color: black;
+}
+body.dark p{
+    color: black;
+}
+body.dark a{
+    color: black;
+}
+body.dark li{
+    color: black;
+    border-bottom: black solid 1px;
+}
+body.dark header>a>#menuButton{
+    color: rgb(0, 0, 0) ;
+    background-color: rgb(255, 255, 255);
+}
+body h1{
+    color: white;
+}
+body h2{
+    color: rgb(255, 255, 255);
+}
+body h3{
+    color: rgb(255, 252, 252);
+}
+body p{
+    color: rgb(255, 247, 247);
+}
+body a{
+    color: rgb(255, 255, 255);
+}
+body li{
+    color: rgb(255, 255, 255);
+    border-bottom: rgb(255, 255, 255) solid 1px;
+}
