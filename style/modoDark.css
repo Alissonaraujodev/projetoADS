@@ -1,7 +1,8 @@
 body.dark{
     background-color: #fffbfb;
-    transition: 0.7;
-}
+    transition: .7;
+} 
+
 body.dark h1{
     color: black;
 }
