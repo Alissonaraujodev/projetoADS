@@ -45,3 +45,8 @@ body li{
     color: rgb(255, 255, 255);
     border-bottom: rgb(255, 255, 255) solid 1px;
 }
+body.dark #botao-Voltar{
+    color: rgb(0, 0, 0) ;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+}

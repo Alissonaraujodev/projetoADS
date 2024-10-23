@@ -28,9 +28,10 @@ trilho.addEventListener('click', ()=> {
     trilho.classList.toggle('dark')
     body.classList.toggle('dark')
 })
-
+/*
 function voltarPaginaAnterior(){
     location.replace(document.referrer)
 }
 document.getElementById('botao-Voltar')
 addEventListener("click",voltarPaginaAnterior)
+*/
