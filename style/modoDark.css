@@ -1,52 +1,70 @@
+@charset "UTF-8";
+:root{
+    --azulNuvemLogo: #27ffdb57;
+    --azulFonteLogo: #0b2b2dc7;
+    --black: #000000;
+    --sombra: #00000080;
+    --white: #eeeeee;
+}
+.dark #trava{
+    background-color: var(--black);
+}
+.dark #divisoriaHeader{
+    border-bottom: 2px solid var(--white);
+    margin-left: -10px;
+}
 body.dark{
-    background-color: #fffbfb;
+    background-color: var(--black);
     transition: .7;
 } 
-
 body.dark h1{
-    color: black;
+    color: var(--white);
 }
 body.dark h2{
-    color: black;
+    color: var(--white);
 }
 body.dark h3{
-    color: black;
+    color: var(--white);
 }
 body.dark p{
-    color: black;
+    color: var(--white);
 }
 body.dark a{
-    color: black;
+    color: var(--white);
 }
 body.dark li{
-    color: black;
-    border-bottom: black solid 1px;
+    color: var(--white);
+    border-bottom:1px solid var(--white);
 }
 body.dark header>a>#menuButton{
-    color: rgb(0, 0, 0) ;
-    background-color: rgb(255, 255, 255);
+    color:var(--white) ;
+    background-color: var(--black);
+}
+body{
+    color: var(--black);
+    background-color: var(--white);
 }
 body h1{
-    color: white;
+    color: var(--black);
 }
 body h2{
-    color: rgb(255, 255, 255);
+    color: var(--black);
 }
 body h3{
-    color: rgb(255, 252, 252);
+    color: var(--black);
 }
 body p{
-    color: rgb(255, 247, 247);
+    color: var(--black);
 }
 body a{
-    color: rgb(255, 255, 255);
+    color: var(--black);
 }
 body li{
-    color: rgb(255, 255, 255);
-    border-bottom: rgb(255, 255, 255) solid 1px;
+    color: var(--black);
+    border-bottom: 1px solid var(--sombra);
 }
 body.dark #botao-Voltar{
-    color: rgb(0, 0, 0) ;
-    background-color: rgb(255, 255, 255);
+    color: var(--white);
+    background-color:var(--black);
     text-decoration: none;
 }

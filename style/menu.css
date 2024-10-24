@@ -1,3 +1,12 @@
+@charset "UTF-8";
+:root{
+    --azulNuvemLogo: #27ffdb57;
+    --azulFonteLogo: #0b2b2dc7;
+    --black: #000000;
+    --sombra: #00000080;
+    --white: #eeeeee;
+    --linkVisitado: #d8709305;
+}
 
 #menu{
     position: relative;
@@ -5,20 +14,48 @@
 #botao-Voltar{
     position: absolute;
     top: 18%;
-    right: 2%;
+    right: 1%;
     cursor: pointer;
     border: none;
-    color: #fff3f3;
-    background-color: #000000;
     text-decoration: none;
-    
 }
 #menuOpcoes{
     position: absolute;
 }
-li>a{
-    color: white;
+li{
+    border: 1px solid var(--sombra);
+    border-radius: 10px;
+}
+.dark li{
+    border: 1px solid var(--white);
+}
+a{
+    color: var(--black);
+    text-decoration: none; 
+    font-size: 1.2em;
+    display: block;
+    padding: 10px;
+    margin: -10px;
+}
+li>a:visited{
+    color: var(--linkVisitado);
+}
+.dark li>a:visited{
+    color: var(--linkVisitado);
 }
 #areaServicos{
-    color: white
+    color: var(--black);
+    font-size: 1.2em;
+    text-decoration: none; 
+    cursor:auto;
+    padding-left: 10px;
+}
+#menuServicos li{
+    margin-left: -35px;
+    border-radius: 10px;
+
+}
+
+body.dark #areaServicos{
+    color: var(--white);
 }

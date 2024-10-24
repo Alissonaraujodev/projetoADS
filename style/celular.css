@@ -1,20 +1,30 @@
 @charset "UTF-8";
 :root{
     --azulNuvemLogo: #27ffdb57;
-    --azulFonteLogo: #0b2c2ec7;
-    --corTexto: #000000;
+    --azulFonteLogo: #0b2b2dc7;
+    --black: #000000;
     --sombra: #00000080;
-    --branco: #eeeeee;
+    --white: #eeeeee;
 }
 ::-webkit-scrollbar{
     width: 0px;
     height: 0px;
 }
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: var(--white);
     width: 90vw;
     font-family: Arial, Helvetica, sans-serif;
     transition: .7s;
+}
+#trava{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--white);
+}
+#divisoriaHeader{
+     border-bottom: 2px solid var(--sombra);
+     margin-left: -10px;
 }
 header{
     position: relative;
@@ -25,23 +35,23 @@ header{
 }
 #posicaoMD{
     position: absolute;
-    right: 0%;
+    right: 10%;
     top: 40px;
 }
 .trilho{
     display: block;
     width: 20px;
     height: 10px;
-    background-color: rgb(0, 0, 0);
+    background-color: var(--white);
     border-radius: 150px;
     position: relative;
     cursor: pointer;
-    border: white solid 2px;
+    border: var(--black) solid 2px;
 }
 .indicador{
     width: 10px;
     height: 10px;
-    background-color: rgb(255, 253, 253);
+    background-color: var(--black);
     border-radius: 50%;
     transform: scale(.9);
     position: absolute;
@@ -49,21 +59,21 @@ header{
     transition:.5s;    
 }
 .trilho.dark{
-    background-color: rgb(255, 254, 254);
-    border: black solid 2px;
+    background-color: var(--black);
+    border:2px solid var(--white);
 }
 .trilho.dark .indicador{
     left: 10px;
-    background-color: #000000;
+    background-color: var(--white);
 }
 #menuButton{
     position: absolute;
     top: 18%;
-    right: 0%;
+    right: 10%;
     cursor: pointer;
     border: none;
-    color: #fff3f3;
-    background-color: #000000;
+    color: var(--black);
+    background-color: var(--white)
 }
 header h1{
     position: absolute;
@@ -73,14 +83,15 @@ header h1{
 }
 #ab{
     font-size: 0.4em;
+   
 }
 #epa{
     font-size: 0.6em;
     font-weight:bold;
 }
-#apresentacao p{
-    font-size: 1.8em;
-    font-weight: bolder;
+
+#textoApresentacao{
+    padding-top:70px;
 }
 a{
     font-size: 0.7em;
@@ -99,7 +110,6 @@ p{
 }
 li{
     list-style-type: none;
-    border-bottom: white solid  1px;
     margin: 2px;
     padding: 10px;
 }
