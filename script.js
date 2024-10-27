@@ -22,12 +22,24 @@ areaServicos.addEventListener("click", function(){
     }
 });
 */
-let trilho = document.getElementById('trilho')
-let body = document.querySelector('body')
+let trilho = document.getElementById('trilho');
+let body = document.querySelector('body');
+if(localStorage.getItem('darkMode')=== 'enabled'){
+    trilho.classList.add('dark');
+    body.classList.add('dark');
+}
+
 trilho.addEventListener('click', ()=> {
-    trilho.classList.toggle('dark')
-    body.classList.toggle('dark')
+    trilho.classList.toggle('dark');
+    body.classList.toggle('dark');
+
+    if(body.classList.contains('dark')){
+        localStorage.setItem('darkMode', 'enabled');
+    }else{
+        localStorage.setItem('darkMode', 'disable');
+    }
 })
+
 /*
 function voltarPaginaAnterior(){
     location.replace(document.referrer)
