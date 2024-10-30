@@ -22,6 +22,7 @@ areaServicos.addEventListener("click", function(){
     }
 });
 */
+/*
 let trilho = document.getElementById('trilho');
 let body = document.querySelector('body');
 if(localStorage.getItem('darkMode')=== 'enabled'){
@@ -39,7 +40,7 @@ trilho.addEventListener('click', ()=> {
         localStorage.setItem('darkMode', 'disable');
     }
 })
-
+*/
 /*
 function voltarPaginaAnterior(){
     location.replace(document.referrer)
