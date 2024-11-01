@@ -32,6 +32,11 @@ body.dark h2{
     color: var(--azulNuvemLogo);
     text-shadow: 3px 3px 7px var(--sombraBranca);
 }
+body.dark h3{
+    color: var(--azulNuvemLogo);
+    text-shadow: 3px 3px 7px var(--sombraBranca);
+    font-size: 1.5em;
+}
 body.dark p{
     color: var(--textoBranco);
 }
@@ -51,6 +56,12 @@ body.dark #botao-Voltar{
     background-color:var(--black);
     text-decoration: none;
 }
+.dark p a:visited{
+    color: var(--linkVisitado);
+}
+.dark .divisao{
+    border-top: 1px solid var(--sombraBranca) ;
+}
 body{
     background-color: var(--backgroundligth);
     color: var(--textoPreto);
@@ -63,7 +74,11 @@ body h2{
     color: var(--azulFonteLogo);
     text-shadow: 3px 3px 5px var(--sombra);
 }
-
+body h3{
+    color: var(--azulFonteLogo);
+    text-shadow: 3px 3px 5px var(--sombra);
+    font-size: 1.5em;
+}
 body p{
     color: var(--textoPreto);
 }
@@ -73,4 +88,7 @@ body a{
 body li{
     color: var(--textoPreto);
     border-bottom: 1px solid var(--sombra);
+}
+p a:visited{
+    color: var(--linkVisitado);
 }

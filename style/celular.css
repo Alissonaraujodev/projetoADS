@@ -112,12 +112,8 @@ a{
     font-size: 0.7em;
     font-weight: bolder;
 }
-p a:visited{
-    color: var(--linkVisitado);
-}
-.dark p a:visited{
-    color: var(--linkVisitado);
-}
+
+
 #logotipo img{
     width: 95vw;
 }
@@ -135,118 +131,39 @@ li{
     margin: 2px;
     padding: 10px;
 }
-#slider{
-    margin: 0 auto;
-    width: 300px;
-    max-width: 100%;
-    text-align: center;
-}
-#slider input[type=radio]{
-    display: none;
-}
-#slider label{
-    cursor: pointer;
-    text-decoration: none;
-}
-#slides{
-    padding: 10px;
-    border: 3px solid #ccc;
-    background: #fff;
+
+/* Formatação do carrossel*/
+.carousel-container {
     position: relative;
+    width: 100%;
+    max-width: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.carousel-track img {
+    width: 100%;
+    flex: 0 0 100%;
+    object-fit: cover;
+}
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
     z-index: 1;
 }
-#overflow{
-    width: 100%;
-    overflow: hidden;
+.prev {
+    left: 10px;
 }
-#slide1:checked ~ #slides .inner{
-    margin-left: 0;
-}
-#slide2:checked ~ #slides .inner{
-    margin-left: -100%;
-}
-#slide3:checked ~ #slides .inner{
-    margin-left: -200%;
-}
-#slide4:checked ~ #slides .inner{
-    margin-left: -300%;
-}
-#slides .inner{
-    transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
-    width: 400%;
-    line-height:0;
-    height: 200px;
-}
-#slides .slide{
-    width: 25%;
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    color: #fff;
-}
-#slides .slide_1{
-    background: #000;
-}
-#slides .slide_2{
-    background: #000;
-}
-#slides .slide_3{
-    background: #000;
-}
-#slides .slide_4{
-    background: #000;
-}
-#controls{
-    margin: -180px 0 0 0;
-    width: 100%;
-    height: 50px;
-    z-index: 3;
-    position: relative;
-}
-#controls label{
-    transition: opacity 0.2s ease-out;
-    display: none;
-    width: 50px;
-    height: 50px;
-    opacity: .4;
-}#controls label:hover{
-    opacity: 1;
-}
-#slide1:checked ~ #controls label:nth-child(2),
-#slide2:checked ~ #controls label:nth-child(3),
-#slide3:checked ~ #controls label:nth-child(4),
-#slide4:checked ~ #controls label:nth-child(1){
-    background: url(../images/seta-direita.png) no-repeat;
-    float: right;
-    margin: 0 -50px 0 0;
-    display: block;
-}
-#slide1:checked ~ #controls label:nth-last-child(2),
-#slide2:checked ~ #controls label:nth-last-child(3),
-#slide3:checked ~ #controls label:nth-last-child(4),
-#slide4:checked ~ #controls label:nth-last-child(1){
-    background: url(../images/seta-esquerda.png) no-repeat;
-    float: left;
-    margin: 0 0 0 -50px;
-    display: block;
-}
-#bullets{
-    margin: 150px 0 0;
-    text-align: center;
-}
-#bullets label{
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-    background: #ccc;
-    margin:0 10px 
-}
-#slide1:checked ~ #bullets label:nth-child(1),
-#slide2:checked ~ #bullets label:nth-child(2),
-#slide3:checked ~ #bullets label:nth-child(3),
-#slide4:checked ~ #bullets label:nth-child(4){
-    background: #444;
+.next {
+    right: 10px;
 }
