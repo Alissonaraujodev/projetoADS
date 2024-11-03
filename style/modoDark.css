@@ -13,17 +13,17 @@
     --black: rgb(0, 0, 0);
     --white: rgb(255, 255, 255);
 }
-.dark #trava{
-    background-color: var(--black);
-}
-.dark #divisoriaHeader{
-    border-bottom: 2px solid var(--sombraBranca);
-    margin-left: -10px;
-}
 body.dark{
     background-color: var(--backgroundDark);
     transition: .7;
 } 
+.trilho.dark{
+    background-color: var(--black);
+    border:2px solid var(--white);
+}
+.trilho.dark .indicador{
+    background-color: var(--white);
+}
 body.dark h1{
     color: var(--textoBranco);
     text-shadow: 3px 3px 5px var(--sombraBranca);
@@ -47,14 +47,20 @@ body.dark li{
     color: var(--textoBranco);
     border-bottom:1px solid var(--sombraBranca);
 }
-body.dark #trava #menuButton{
-    background-color: var(--black);
-    color: var(--white) ;
+body.dark #menuButton{
+    border: 2px solid var(--white);
+}
+body.dark #menuButton img{
+    background-color: var(--white);
 }
 body.dark #botao-Voltar{
     color: var(--white);
     background-color:var(--black);
     text-decoration: none;
+}
+body.dark #botao-Voltar img{
+    border: 2px solid var(--white);
+    background-color: var(--white);
 }
 .dark p a:visited{
     color: var(--linkVisitado);

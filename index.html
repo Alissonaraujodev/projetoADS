@@ -5,61 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pagina principal/progeto ADS</title>
     <link rel="stylesheet" href="style/celular.css" media=" all">
-    <link rel="stylesheet" href="style/tablets.css" media="screen and (min-width: 481px)">
-    <link rel="stylesheet" href="style/desktops.css" media="screen and (min-width: 789px)">
-    <link rel="stylesheet" href="style/tv.css" media="screen and (min-width: 1280px)">
     <link rel="stylesheet" href="style/modoDark.css">
-    
 </head>
 <body> 
-    
-    <div id="trava">
-        <header>
-           
-            <h1><span id="ab">ASSOCIAÇÃO BENEFICENTE</span><br><span id="epa"> EU POSSO AJUDAR</span></h1> 
-            <a href="menu.html"><button id="menuButton">&#9776;</button></a>
-            <section id="posicaoBD">
-                <div id="posicaoMD">
-                    <div class="trilho" id="trilho">
-                        <div class="indicador"></div>
-                    </div>
-                </div>
-            </section>
-        </header>
-        <div id="divisoriaHeader"></div>
-    </div>
+
+    <header>
+        <h1><span id="ab">ASSOCIAÇÃO BENEFICENTE</span><br><span id="epa"> EU POSSO AJUDAR</span></h1> 
+        <a href="menu.html" id="menuButton"> <img src="images/menu-aberto.png" alt=""></a>
+        
+        <div id="posicaoMD">
+            <div class="trilho" id="trilho">
+                <div class="indicador"></div>
+            </div>
+        </div>   
+    </header>
 
     <main>
-        <section class="topoDivisao">
-            <p>Essa Associação tem como objetivo ajudar as pessoas que estão em situação de rua, promover e incentivar eventos de esporte, lazer e arte para a comunidade, fornecer convênios de acesso educativos e semelhantes.</p> 
-        </section>
+        <div class="container">
+            <div class="posicao1">
+                <section class="topoDivisao">
+                    <p>Essa Associação tem como objetivo ajudar as pessoas que estão em situação de rua, promover e incentivar eventos de esporte, lazer e arte para a comunidade, fornecer convênios de acesso educativos e semelhantes.</p>
+                </section>
+                
+                <p><a href="quemSomos.html" target="_self">Saiba mais sobre quem somos</a></p>
+            </div> 
+            <div class="posicao2">
+                <div id="logotipo"><img src="images/logoEPA.png" alt=""></div>
+            </div>
+            
+        </div>
         
-        <p><a href="quemSomos.html" target="_self">Saiba mais sobre quem somos</a></p>  
+        <div class="containerTextos">
+            <div class="posicaoTitulo"><h2>O QUE FAZEMOS</h2></div>
+            
+             <div class="posicaoTexto">
+                 <section class="divisao">
+                    <p>Trabalhamos para acolher e apoiar diversas populações, incluindo pessoas em situação de rua, idosos, crianças, adolescentes e pessoas com distúrbios psíquicos, deficiência mental ou dependência química.</p>
+                    <li>Instituições de Longa Permanência para Idosos (CNAE 8711-5/02)</li>
+                    <li>Atividades de assistência psicossocial (CNAE 8720-4/99)</li>
+                    <li>Orfanatos (CNAE 8730-1/01)</li>
+                    <li>Albergues Assistenciais (CNAE 8730-1/02)</li>
+                    <li>Serviços de Assistência Social sem Alojamento (CNAE 8800-6/00)</li>
+                    <li>Educação Infantil (CNAE 8511-2/00)</li>
+                         </section>
+            
+                         <p><a href="oQueFazemos.html" target="_self">Saiba mais sobre o que fazemos</a></p>
+             </div>
+        </div>
         
-        <div id="logotipo"><img src="images/logoEPA.png" alt=""></div>
-        
-        <section class="divisao">
-            <h2>O QUE FAZEMOS</h2>
-            <p>Trabalhamos para acolher e apoiar diversas populações, incluindo pessoas em situação de rua, idosos, crianças, adolescentes e pessoas com distúrbios psíquicos, deficiência mental ou dependência química.</p>
-            <li>Instituições de Longa Permanência para Idosos (CNAE 8711-5/02)</li>
-            <li>Atividades de assistência psicossocial (CNAE 8720-4/99)</li>
-            <li>Orfanatos (CNAE 8730-1/01)</li>
-            <li>Albergues Assistenciais (CNAE 8730-1/02)</li>
-            <li>Serviços de Assistência Social sem Alojamento (CNAE 8800-6/00)</li>
-            <li>Educação Infantil (CNAE 8511-2/00)</li>
-        </section>
-        
-        <p><a href="oQueFazemos.html" target="_self">Saiba mais sobre o que fazemos</a></p>
-        
-        <section class="divisao">
-            <h2>COMO TRABALHAMOS </h2>
-            <p>A Associação beneficente EU POSSO AJUDAR, oferece serviços de assistência social, saúde, educação e bem-estar para populações vulneráveis, promovendo inclusão social,o trabalho oferecido pela associação fortalece e beneficia a comunidade por meio de eventos culturais,eventos esportivos e educação, gerando oportunidades e transformação. </p>
-          
-            <li>Eventos Culturais</li>
-            <li>Eventos Esportivos</li>
-            <li>Educação</li>
-        </section>
-         <p><a href="comoTrabalhamos.html">Saiba mais sobre como trabalhamos</a></p>
+        <div class="containerTextos">
+             <div class="posicaoTitulo"><h2>COMO TRABALHAMOS </h2></div>
+             <div class="posicaoTexto">
+                 <section class="divisao">
+             
+                    <p>A Associação beneficente EU POSSO AJUDAR, oferece serviços de assistência social, saúde, educação e bem-estar para populações vulneráveis, promovendo inclusão social,o trabalho oferecido pela associação fortalece e beneficia a comunidade por meio de eventos culturais,eventos esportivos e educação, gerando oportunidades e transformação. </p>
+             
+                    <li>Eventos Culturais</li>
+                    <li>Eventos Esportivos</li>
+                    <li>Educação</li>
+                         </section>
+                 <p><a href="comoTrabalhamos.html">Saiba mais sobre como trabalhamos</a></p>
+             </div>
+         </div>
     </main>
 
     <footer></footer>

@@ -1,29 +1,47 @@
 @charset "UTF-8";
 *{font-family: Arial, Helvetica, sans-serif;}
 :root{
-    --azulNuvemLogo: #27ffdb57;
-    --azulFonteLogo: #0b2b2dc7;
-    --black: #000000;
-    --sombra: #00000080;
-    --white: #eeeeee;
+    --azulNuvemLogo: rgba(39, 255, 219, 0.3);
+    --azulFonteLogo: rgba(11, 43, 45, 0.7);
+    --backgroundDark: rgba(0, 0, 0); 
+    --backgroundligth: rgba(238, 238, 238);
+    --textoPreto:rgba(0, 0, 0);
+    --textoBranco: rgba(255, 255, 255, 0.8);
+    --sombra: rgba(0, 0, 0, 0.3);
+    --sombraBranca: rgba(255, 255, 255, 0.3);
     --linkVisitado: #d8709305;
+    --black: rgb(0, 0, 0);
+    --white: rgb(255, 255, 255);
 }
-
-
+header{
+    padding-bottom: 20%; 
+    position: relative;
+}
 #menu{
     position: relative;
 }
 #botao-Voltar{
     position: absolute;
-    top: 18%;
-    right: 11%;
+    top: 20%;
+    right: 1%;
+    cursor: pointer;
+    border: none; 
+}
+#botao-Voltar img{
+    width: 20px; 
+    height: 20px;
+    border-radius: 50%; 
+    border: 2px solid var(--black);
+}
+#posicaoMD{
+    right: 1%;
+    bottom: 20%;
     cursor: pointer;
     border: none;
     text-decoration: none;
 }
 #menuOpcoes{
     position: absolute;
-    top: 90px;
 }
 li{
     border: 1px solid var(--sombra);
@@ -56,9 +74,11 @@ li>a:visited{
 #menuServicos li{
     margin-left: -35px;
     border-radius: 10px;
-
 }
-
 body.dark #areaServicos{
     color: var(--white);
+}
+@media screen and (min-width: 481px) and (max-width: 789px){
+    
+    
 }
