@@ -31,12 +31,12 @@ body{
 }
 header{
     position: relative;
-    padding-bottom: 20%;
+    padding-bottom: 15%;
 }
 #posicaoMD{
     position: absolute;
     right: 1%;
-    bottom: 20%;
+    bottom: 0%;
 }
 .trilho{
     display: block;
@@ -68,7 +68,7 @@ header{
 }
  #menuButton{
     position: absolute;
-    top: 15%;
+    top: 10%;
     right: 1%;
     cursor: pointer;
     border: none;
@@ -90,11 +90,11 @@ header h1{
     width: 90%;
 }
 #ab{
-    font-size: 0.6em;
+    font-size: 0.4em;
     font-family: croissantOne;
 }
 #epa{
-    font-size: 0.9em;
+    font-size: 0.6em;
     font-weight:bold;
     font-family: croissantOne;
 }
@@ -156,69 +156,69 @@ li{
 .next {
     right: 10px;
 }
-@media screen and (min-width: 481px) and (max-width: 789px){
+@media screen and (min-width: 481px) and (max-width: 800px){
     header{
         padding-bottom: 15%;
     }
     #ab{
-        font-size: 1em;    
+        font-size: 0.6em;    
     }
     #epa{
-        font-size: 1.5em;  
+        font-size: 1em;  
     }
     #menuButton{
-        top: 20%;
+        top: 10%;
     }
     #menuButton img{
-        width: 25px;
-        height: 25px;
+        width: 20px;
+        height: 20px;
     }
     #posicaoMD{
-        bottom: 20%;
+        bottom: 25%;
     }
     .trilho{
-        width: 30px;
-        height: 15px;
+        width: 20px;
+        height: 10px;
     }
     .indicador{
-        width: 15px;
-        height: 15px;  
+        width: 10px;
+        height: 10px;  
     }
     .trilho.dark .indicador{
-        left: 15px;
+        left: 10px;
     }
     a{
-        font-size: 1em;
+        font-size: 0.6em;
     }
     h2{
-        font-size: 3em;
-    }
-    p{
         font-size: 2em;
     }
-    li{
+    p{
         font-size: 1.5em;
+    }
+    li{
+        font-size: 1.2em;
     }
     .carousel-container{
         max-width: 789px;
     }
 }
-@media screen and (min-width: 790px) and (max-width: 1366px){
+@media screen and (min-width: 801px) and (max-width: 1000px){
     header{
         padding-bottom: 10%;
     }
     h1{
-        left: 15%;
+        left: 5%;
     }
     #ab{
-        font-size: 1em;    
+        font-size: 0.8em;    
     }
     #epa{
-        font-size: 1.5em;  
+        font-size: 1.2em;  
     }
     #menuButton{
-        top: 20%;
-        right: 15%; 
+        top: 15%;
+        right: 5%; 
         padding: 4px;
     }
     #menuButton img{
@@ -226,8 +226,8 @@ li{
         height: 20px;
     }
     #posicaoMD{
-        bottom: 20%;
-        right: 15%;
+        bottom: 15%;
+        right: 5%;
     }
     .trilho{
         width: 30px;
@@ -244,10 +244,144 @@ li{
         font-size: 0.6em;
     }
     h2{
-        font-size: 1.9em;
+        font-size: 1.6em;
     }
     p{
-        font-size: 2em;
+        font-size: 1.4em;
+    }
+    li{
+        font-size: 0.9em;
+    }
+    .carousel-container{
+        max-width: 789px;
+    }
+    .container{
+        position: relative;
+        padding-bottom: 35%;
+    }
+    .posicao1{
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 40%;
+    }
+    .posicao2{
+        position: absolute;
+        top: 10%;
+        right:5%;
+        width: 40%;
+    }
+   #logotipo img{
+        width: 100%;
+        max-width: 500px;
+    }
+    .containerTextos{
+        position: relative;
+        padding-bottom: 630px;
+    }
+    .posicaoTitulo{
+        position: absolute;
+        top: 10%;
+        left: 5%;
+    }
+    .posicaoTexto{
+        position: absolute;
+        top: 10%;
+        right: 5%;
+        width: 40%;
+    }
+    .containerTextos1{
+        position: relative;
+        padding-bottom: 350px;
+    }
+    .posicaoTitulo1{
+        position: absolute;
+        top: 10%;
+        left: 5%;
+    }
+    .posicaoTexto1{
+        position: absolute;
+        top: 10%;
+        right: 5%;
+        width: 40%;
+    }
+    .containerTextos2{
+        position: relative;
+        padding-bottom: 350px;
+    }
+    .posicaoTitulo2{
+        position: absolute;
+        top: 10%;
+        left: 5%;
+    }
+    .posicaoTexto2{
+        position: absolute;
+        top: 10%;
+        right: 5%;
+        width: 40%;
+    }
+    .containerTextos3{
+        position: relative;
+        padding-bottom: 500px;
+    }
+    .posicaoTitulo3{
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        width: 40%;
+    }
+    .posicaoTexto3{
+        position: absolute;
+        top: 10%;
+        right: 5%;
+        width: 40%;
+    }
+}
+@media screen and (min-width: 1001px) and (max-width: 1366px){
+    header{
+        padding-bottom: 10%;
+    }
+    h1{
+        left: 10%;
+    }
+    #ab{
+        font-size: 1em;    
+    }
+    #epa{
+        font-size: 1.5em;  
+    }
+    #menuButton{
+        top: 10%;
+        right: 10%;
+        padding: 4px;
+    }
+    #menuButton img{
+        width: 20px;
+        height: 20px;
+    }
+    #posicaoMD{
+        bottom: 20%;
+        right: 10%;
+    }
+    .trilho{
+        width: 30px;
+        height: 15px;
+    }
+    .indicador{
+        width: 15px;
+        height: 15px;  
+    }
+    .trilho.dark .indicador{
+        left: 15px;
+    }
+    a{
+        font-size: 0.6em;
+    }
+    h2{
+        font-size: 1.6em;
+    }
+    p{
+        font-size: 1.8em;
     }
     li{
         font-size: 1.1em;
@@ -257,45 +391,92 @@ li{
     }
     .container{
         position: relative;
-        padding-bottom: 50%;
+        padding-bottom: 350px;
     }
     .posicao1{
         position: absolute;
         top: 5%;
-        left: 15%;
+        left: 10%;
         width: 40%;
     }
     .posicao2{
         position: absolute;
         top: 10%;
-        right:10%;
+        right:5%;
+        width: 40%;
     }
    #logotipo img{
-        width: 100%;
-        max-width: 1000px;
+        width: 90%;
     }
     .containerTextos{
         position: relative;
-        padding-bottom: 60%;
+        padding-bottom: 750px;
     }
     .posicaoTitulo{
         position: absolute;
-        top: 10%;
-        left: 15%;
+        top: 12%;
+        left: 10%;
+
     }
     .posicaoTexto{
         position: absolute;
         top: 10%;
-        right: 8%;
+        right: 5%;
+        width: 40%;
+    }
+    .containerTextos1{
+        position: relative;
+        padding-bottom: 450px;
+    }
+    .posicaoTitulo1{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    .posicaoTexto1{
+        position: absolute;
+        top: 10%;
+        right: 5%;
+        width: 40%;
+    }
+    .containerTextos2{
+        position: relative;
+        padding-bottom: 450px;
+    }
+    .posicaoTitulo2{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    .posicaoTexto2{
+        position: absolute;
+        top: 10%;
+        right: 5%;
+        width: 40%;
+    }
+    .containerTextos3{
+        position: relative;
+        padding-bottom: 600px;
+    }
+    .posicaoTitulo3{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        width: 40%;
+    }
+    .posicaoTexto3{
+        position: absolute;
+        top: 10%;
+        right: 5%;
         width: 40%;
     }
 }
 @media screen and (min-width: 1367px){
     header{
-        padding-bottom: 10%;
+        padding-bottom: 8%;
     }
     h1{
-        left: 20%;
+        left: 10%;
     }
     #ab{
         font-size: 1em;    
@@ -304,8 +485,8 @@ li{
         font-size: 1.5em;  
     }
     #menuButton{
-        top: 20%;
-        right: 20%;
+        top: 10%;
+        right: 10%;
         padding: 4px;
     }
     #menuButton img{
@@ -313,8 +494,8 @@ li{
         height: 20px;
     }
     #posicaoMD{
-        bottom: 40%;
-        right: 20%;
+        bottom: 30%;
+        right: 10%;
     }
     .trilho{
         width: 30px;
@@ -328,53 +509,101 @@ li{
         left: 15px;
     }
     a{
-        font-size: 0.6em;
+        font-size: 0.8em;
     }
     h2{
-        font-size: 2.2em;
-    }
-    p{
         font-size: 2em;
     }
+    p{
+        font-size: 1.8em;
+    }
     li{
-        font-size: 1.1em;
+        font-size: 1.2em;
     }
     .carousel-container{
         max-width: 789px;
     }
     .container{
         position: relative;
-        padding-bottom: 20%;
+        padding-bottom: 350px;
     }
     .posicao1{
         position: absolute;
         top: 5%;
-        left: 20%;
+        left: 10%;
         width: 40%;
     }
     .posicao2{
         position: absolute;
         top: 10%;
-        right:15%;
+        right:5%;
+        width: 40%;
+
     }
    #logotipo img{
-        width: 100%;
-        max-width: 1000px;
+        width: 80%;
+        
     }
     .containerTextos{
         position: relative;
-        padding-bottom: 35%;
+        padding-bottom: 700px;
     }
     .posicaoTitulo{
         position: absolute;
         top: 10%;
-        left: 20%;
+        left: 10%;
 
     }
     .posicaoTexto{
         position: absolute;
         top: 10%;
         right: 10%;
+        width: 40%;
+    }
+    .containerTextos1{
+        position: relative;
+        padding-bottom: 400px;
+    }
+    .posicaoTitulo1{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    .posicaoTexto1{
+        position: absolute;
+        top: 10%;
+        right: 5%;
+        width: 40%;
+    }
+    .containerTextos2{
+        position: relative;
+        padding-bottom: 400px;
+    }
+    .posicaoTitulo2{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    .posicaoTexto2{
+        position: absolute;
+        top: 10%;
+        right: 5%;
+        width: 40%;
+    }
+    .containerTextos3{
+        position: relative;
+        padding-bottom: 500px;
+    }
+    .posicaoTitulo3{
+        position: absolute;
+        left: 10%;
+        top: 10%;
+        width: 40%;
+    }
+    .posicaoTexto3{
+        position: absolute;
+        top: 10%;
+        right: 5%;
         width: 40%;
     }
 }
