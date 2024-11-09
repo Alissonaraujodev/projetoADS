@@ -98,3 +98,23 @@ body li{
 p a:visited{
     color: var(--linkVisitado);
 }
+
+/*menu*/
+body.dark #areaServicos{
+    color: var(--white);
+}
+li>a:visited{
+    color: var(--linkVisitado);
+}
+.dark li>a:visited{
+    color: var(--linkVisitado);
+}
+.dark li{
+    border: 1px solid var(--sombraBranca);
+}
+a{
+    color: var(--black);
+}
+li{
+    border: 1px solid var(--sombra);
+}

@@ -14,7 +14,7 @@
     --white: rgb(255, 255, 255);
 }
 header{
-    padding-bottom: 20%; 
+    padding-bottom: 100px; 
     position: relative;
 }
 #menu{
@@ -23,9 +23,10 @@ header{
 #botao-Voltar{
     position: absolute;
     top: 20%;
-    right: 1%;
+    right: calc(5% + 10px);
     cursor: pointer;
     border: none; 
+    padding: 2px;
 }
 #botao-Voltar img{
     width: 20px; 
@@ -34,8 +35,8 @@ header{
     border: 2px solid var(--black);
 }
 #posicaoMD{
-    right: 1%;
-    bottom: 20%;
+    right: 5%;
+    top: 50%;
     cursor: pointer;
     border: none;
     text-decoration: none;
@@ -44,41 +45,78 @@ header{
     position: absolute;
 }
 li{
-    border: 1px solid var(--sombra);
     border-radius: 10px;
-}
-.dark li{
-    border: 1px solid var(--white);
+    width: 70vw;
+    margin-left: 15%;
 }
 a{
-    color: var(--black);
     text-decoration: none; 
     font-size: 1.2em;
     display: block;
     padding: 10px;
     margin: -10px;
 }
-li>a:visited{
-    color: var(--linkVisitado);
+p{
+    font-size: 1.5em;
+    padding-left: 15%;
 }
-.dark li>a:visited{
-    color: var(--linkVisitado);
+@media screen and (min-width: 481px) and (max-width: 800px){
+    #botao-Voltar img{
+        width: 25px; 
+        height: 25px;
+        right: 5%;
+    }
+    .trilho{
+        width: 30px;
+        height: 15px;
+    }
+    .indicador{
+        width: 15px;
+        height: 15px;  
+    }
+    .trilho.dark .indicador{
+        left: 15px;
+    }
 }
-#areaServicos{
-    color: var(--black);
-    font-size: 1.2em;
-    text-decoration: none; 
-    cursor:auto;
-    padding-left: 10px;
+
+@media screen and (min-width: 801px) and (max-width: 1000px){
+    #botao-Voltar img{
+        width: 25px; 
+        height: 25px;
+    }
+    .trilho{
+        width: 30px;
+        height: 15px;
+    }
+    .indicador{
+        width: 15px;
+        height: 15px;  
+    }
+    .trilho.dark .indicador{
+        left: 15px;
+    }
 }
-#menuServicos li{
-    margin-left: -35px;
-    border-radius: 10px;
+@media screen and (min-width: 1001px) and (max-width: 1366px){
+    #posicaoMD{
+        right: 10%;
+    }
+    #botao-Voltar img{
+        width: 25px; 
+        height: 25px;
+    }
+    #botao-Voltar{
+        right:calc(10% + 10px);
+    }
 }
-body.dark #areaServicos{
-    color: var(--white);
-}
-@media screen and (min-width: 481px) and (max-width: 789px){
-    
-    
+@media screen and (min-width: 1367px){
+    #posicaoMD{
+        right: 10%;
+    }
+    #botao-Voltar img{
+        width: 25px; 
+        height: 25px;
+    }
+    #botao-Voltar{
+        right:calc(10% + 10px);
+    }
 }
