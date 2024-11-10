@@ -36,7 +36,22 @@
         left: 15px;
     }
     a{
-        font-size: 0.6em;
+        font-size: .6em;
+    }
+    li a:hover{
+        background-color: var(--black);
+        padding: 10px;
+        border-radius: 10px;  
+    }
+    .dark a:hover{
+        background-color: var(--white);
+        padding: 10px;
+        border-radius: 10px;  
+    }
+    p a:hover{
+        background-color: var(--black);
+        padding: 10px;
+        border-radius: 10px;  
     }
     h2{
         font-size: 1.6em;

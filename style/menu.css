@@ -77,6 +77,12 @@ p{
     .trilho.dark .indicador{
         left: 15px;
     }
+    li a{
+        font-size: 1.4em;
+    }
+    #menuOpcoes p{
+        font-size: 2em;  
+    }
 }
 
 @media screen and (min-width: 801px) and (max-width: 1000px){
@@ -95,6 +101,12 @@ p{
     .trilho.dark .indicador{
         left: 15px;
     }
+    li a{
+        font-size: 2em;
+    } 
+    #menuOpcoes p{
+        font-size: 2.2em;  
+    } 
 }
 @media screen and (min-width: 1001px) and (max-width: 1366px){
     #posicaoMD{
@@ -107,6 +119,12 @@ p{
     #botao-Voltar{
         right:calc(10% + 10px);
     }
+    li a{
+        font-size: 2em;
+    }
+    #menuOpcoes p{
+        font-size: 2.2em;  
+    }
 }
 @media screen and (min-width: 1367px){
     #posicaoMD{
@@ -118,5 +136,11 @@ p{
     }
     #botao-Voltar{
         right:calc(10% + 10px);
+    }
+    li a{
+        font-size: 2em;
+    }
+    #menuOpcoes p{
+        font-size: 2.2em;  
     }
 }

@@ -38,6 +38,21 @@
     a{
         font-size: 0.8em;
     }
+    li a:hover{
+        background-color: var(--black);
+        padding: 10px;
+        border-radius: 10px;  
+    }
+    .dark a:hover{
+        background-color: var(--white);
+        padding: 10px;
+        border-radius: 10px;  
+    }
+    p a:hover{
+        background-color: var(--black);
+        padding: 10px;
+        border-radius: 10px;  
+    }
     h2{
         font-size: 2em;
     }
@@ -88,7 +103,7 @@
 /* posição dos textos e títulos do arquivo Quem Somos/aprensentação de eventos culturais esportivos, educaçaõ/ Missão */
     .containerTextosQS{
         position: relative;
-        padding-bottom: 400px;
+        padding-bottom: 460px;
     }
     .posicaoTituloQS{
         position: absolute;
