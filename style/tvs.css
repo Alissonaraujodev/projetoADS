@@ -38,21 +38,7 @@
     a{
         font-size: 0.8em;
     }
-    li a:hover{
-        background-color: var(--black);
-        padding: 10px;
-        border-radius: 10px;  
-    }
-    .dark a:hover{
-        background-color: var(--white);
-        padding: 10px;
-        border-radius: 10px;  
-    }
-    p a:hover{
-        background-color: var(--black);
-        padding: 10px;
-        border-radius: 10px;  
-    }
+
     h2{
         font-size: 2em;
     }
@@ -65,7 +51,7 @@
 /* posição dos textos, títulos e imagens do arquivo Index*/
     .container{
         position: relative;
-        padding-bottom: 350px;
+        padding-bottom: 420px;
     }
     .posicaoTextoApresentacao{
         position: absolute;
@@ -78,15 +64,14 @@
         top: 10%;
         right:5%;
         width: 40%;
-
     }
    #logotipo img{
         width: 100%;
-        max-width: 500px;  
+        max-width: 480px;  
     }
     .containerTextosIndex{
         position: relative;
-        padding-bottom: 700px;
+        padding-bottom: 780px;
     }
     .posicaoTituloIndex{
         position: absolute;
@@ -103,7 +88,7 @@
 /* posição dos textos e títulos do arquivo Quem Somos/aprensentação de eventos culturais esportivos, educaçaõ/ Missão */
     .containerTextosQS{
         position: relative;
-        padding-bottom: 460px;
+        padding-bottom: 430px;
     }
     .posicaoTituloQS{
         position: absolute;
@@ -119,7 +104,7 @@
 /* posição dos textos e títulos do arquivo O Que Fazemos*/
     .containerTextosOQF{
         position: relative;
-        padding-bottom: 400px;
+        padding-bottom: 420px;
     }
     .posicaoTituloOQF{
         position: absolute;
@@ -155,6 +140,12 @@
         height: 100%;
         max-width: 600px;   
     }
+/*definição para o tamanho da imagem dentro do carrossel */
+.carousel-track img {
+    width: 100%;
+    flex: 0 0 170%;
+    object-fit: cover;
+}
 /* posicionamento do arquivo Eventos Culturais*/
     .posicaoTituloEC{
         text-align: center;
@@ -453,5 +444,41 @@
         right: 5%;
         top: 40px;
         height: 430px;
+    }
+    .dark .divisao{
+        border-top: 2px solid var(--sombraBranca) ;
+    }
+    .rodape {
+        text-align: center;
+    }
+    footer a{
+        font-size: .8em;
+        text-decoration: none;
+        padding: 5px;
+    }
+    footer a img{
+        margin-bottom: -5px;
+    }
+    .rodapePosicao1{
+        position: absolute;
+        width: 30%;
+        left: 30%;
+        padding-top: 0%;
+        margin: -5px;
+        text-align: left;
+    }
+    .rodapePosicao2{
+        position: absolute;
+        width: 30%;
+        left: 45%;
+        padding-top:0%;
+        text-align: left;
+    }
+    .rodapePosicao3{
+        position: absolute;
+        width: 30%;
+        right: 10%;
+        padding-top: 0%;
+        text-align: left;
     }
 }

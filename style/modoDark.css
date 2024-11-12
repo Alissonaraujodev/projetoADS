@@ -119,3 +119,45 @@ li{
     border: 1px solid var(--sombra);
     border-radius: 10px;
 }
+.logoRedeSocial{
+    background-color: white;
+    border-radius: 50%;
+}
+.dark .logoRedeSocial{
+    background-color: white;
+    border-radius: 50%;
+}
+@media screen and (min-width: 1001px){
+    li a:hover{
+        background-color: var(--black);
+        padding: 10px;
+        border-radius: 10px;  
+    }
+    .dark a:hover{
+        background-color: var(--white);
+        padding: 10px;
+        border-radius: 10px;  
+        color: var(--black);
+    }
+    p a:hover{
+        background-color: var(--black);
+        padding: 10px;
+        border-radius: 10px; 
+        color: var(--white); 
+    }
+    
+    .rodape a:hover{
+        background-color: var(--black);
+        padding: 10px;
+        border-radius: 10px; 
+        color: var(--white);
+    }
+    .rodape a:hover{
+        background-color: var(--white);
+        padding: 10px;
+        border-radius: 10px; 
+        color: var(--black);
+    }
+    
+    
+}
