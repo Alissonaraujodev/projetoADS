@@ -85,7 +85,7 @@
         right: 10%;
         width: 40%;
     }
-/* posição dos textos e títulos do arquivo Quem Somos/aprensentação de eventos culturais esportivos, educaçaõ/ Missão */
+/* posição dos textos e títulos do arquivo Quem Somos/aprensentação de eventos */
     .containerTextosQS{
         position: relative;
         padding-bottom: 430px;
@@ -94,12 +94,42 @@
         position: absolute;
         top: 10%;
         left: 10%;
+        width: 40%;
     }
     .posicaoTextoQS{
         position: absolute;
         top: 10%;
         right: 5%;
         width: 40%;
+    }
+    .containerTextosQSH{
+        position: relative;
+        padding-bottom: 1100px;
+    }
+    .posicaoTituloQSH{
+        position: absolute;
+        top: 1%;
+        left: 10%;
+        width: 40%;
+    }
+    .posicaoTrecho1H{
+        position: absolute;
+        top: 1%;
+        right: 5%;
+        width: 40%;
+    }
+    .posicaoTrecho2H{
+        position: absolute;
+        top: 500px;
+        left: 5%;
+        width: 40%;
+    }
+    .posicaoTrecho3H{
+        position: absolute;
+        top: 500px;
+        right: 5%;
+        width: 40%;
+        font-size: 1.05em;
     }
 /* posição dos textos e títulos do arquivo O Que Fazemos*/
     .containerTextosOQF{
@@ -117,10 +147,10 @@
         right: 5%;
         width: 40%;
     }
-/* posição dos textos e títulos do arquivo Como Trabalhamos/ aprensentaçaõ dos serviços*/
+/* posição dos textos e títulos do arquivo Como Trabalhamos*/
     .containerTextosCT{
         position: relative;
-        padding-bottom: 500px;
+        padding-bottom: 580px;
     }
     .posicaoTituloCT{
         position: absolute;
@@ -131,6 +161,83 @@
     .posicaoTextoCT{
         position: absolute;
         top: 10%;
+        right: 5%;
+        width: 40%;
+    }
+    .containerTextosEC{
+        position: relative;
+        padding-bottom: 500px;
+    }
+    .posicaoTituloEC{
+        position: absolute;
+        left: 10%;
+        top: 10%;
+        width: 40%;
+    }
+    .posicaoTextoEC{
+        position: absolute;
+        top: 10%;
+        right: 5%;
+        width: 40%;
+    }
+    .containerTextosEE{
+        position: relative;
+        padding-bottom: 500px;
+    }
+    .posicaoTituloEE{
+        position: absolute;
+        left: 10%;
+        top: 10%;
+        width: 40%;
+    }
+    .posicaoTextoEE{
+        position: absolute;
+        top: 10%;
+        right: 5%;
+        width: 40%;
+    }
+    .containerTextosE{
+        position: relative;
+        padding-bottom: 550px;
+    }
+    .posicaoTituloE{
+        position: absolute;
+        left: 10%;
+        top: 10%;
+        width: 40%;
+    }
+    .posicaoTextoE{
+        position: absolute;
+        top: 10%;
+        right: 5%;
+        width: 40%;
+    }
+    .containerTextosMissao{
+        position: relative;
+        padding-bottom: 720px;
+    }
+    .posicaoTituloMissao{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        width: 40%;
+    }
+    .posicaoTrecho1M{
+        position: absolute;
+        top: 10%;
+        right: 5%;
+        width: 40%;
+    }
+    .posicaoTrecho2M{
+        position: absolute;
+        top: 400px;
+        left: 5%;
+        width: 40%;
+        font-size: 1.1em;
+    }
+    .posicaoTrecho3M{
+        position: absolute;
+        top: 400px;
         right: 5%;
         width: 40%;
     }
@@ -147,13 +254,12 @@
     object-fit: cover;
 }
 /* posicionamento do arquivo Eventos Culturais*/
-    .posicaoTituloEC{
+    .posicaoTEC{
         text-align: center;
-        padding-top: 30px;
     }
     .containerEC{
         position: relative;
-
+        padding-bottom: 1100px ;
     }
     .posicaoTrecho1EC{
         position: absolute;
@@ -166,14 +272,14 @@
         position: absolute;
         width: 40%;
         left: 10%;
-        top: 550px;
+        top: 650px;
         font-size: 1.1em;
     }
     .posicaoTrecho3EC{
         position: absolute;
         width: 40%;
         right: 5%;
-        top: 550px;
+        top: 650px;
         font-size: 1.1em;
     }
     .posicaoCarrosselEC{
@@ -184,34 +290,33 @@
         height: 500px ;
     }
 /* posicionamento do arquivo Eventos Esportivos*/
-    .posicaoTituloEE{
+    .posicaoTEE{
         text-align: center;
-        padding-top: 30px;
     }
     .containerEE{
         position: relative;
-
+        padding-bottom: 1200px;
     }
     .posicaoTrecho1EE{
         position: absolute;
         width: 40%;
         left: 10%;
         height: 300px;
-        font-size: 1.1em;
+        font-size: 1.05em;
     }
     .posicaoTrecho2EE{
         position: absolute;
         width: 40%;
         left: 10%;
         top: 550px;
-        font-size: 1.1em;
+        font-size: 1em;
     }
     .posicaoTrecho3EE{
         position: absolute;
         width: 40%;
         right: 5%;
         top: 550px;
-        font-size: 1.1em;
+        font-size: 1em;
     }
     .posicaoCarrosselEE{
         position: absolute;
@@ -221,13 +326,12 @@
         height: 500px ;
     }
 /* posicionamento do arquivo Educação*/
-    .posicaoTituloE{
-        text-align: center;
-        padding-top: 30px;
+    .posicaoTE{
+        text-align: center;    
     }
     .containerE{
         position: relative;
-
+        padding-bottom: 1300px;
     }
     .posicaoTrecho1E{
         position: absolute;
@@ -263,6 +367,7 @@
 /* posicionamento do arquivo do Serviço 1*/
     .containerS1{
         position: relative;
+        padding-bottom: 1200px;
     }
     .s1Trecho1{
         position: absolute;
@@ -294,12 +399,13 @@
 /* posicionamento do arquivo do Serviço 2*/
     .containerS2{
         position: relative;
+        padding-bottom: 1200px;
     }
     .s2Trecho1{
         position: absolute;
         width: 40%;
         left: 10%;
-        font-size: 1.1em;
+        font-size: 1em;
     }
     .s2Trecho2{
         position: absolute;
@@ -325,6 +431,7 @@
 /* posicionamento do arquivo do Serviço 3*/
     .containerS3{
         position: relative;
+        padding-bottom: 1100px;
     }
     .s3Trecho1{
         position: absolute;
@@ -336,14 +443,14 @@
         position: absolute;
         width: 40%;
         right: 5%;
-        top: 500px;
+        top: 520px;
         font-size: 1.1em;
     }
     .s3Trecho3{
         position: absolute;
         width: 40%;
         left: 10%;
-        top: 500px;
+        top: 520px;
         font-size: 1em;
     }
     .s3Carrossel{
@@ -351,10 +458,12 @@
         width: 40%;
         right: 5%;
         top: 40px;
+        height: 480px;
     }
 /* posicionamento do arquivo do Serviço 4*/
     .containerS4{
         position: relative;
+        padding-bottom: 1200px;
     }
     .s4Trecho1{
         position: absolute;
@@ -386,6 +495,7 @@
 /* posicionamento do arquivo do Serviço 5*/
     .containerS5{
         position: relative;
+        padding-bottom: 1100px;
     }
     .s5Trecho1{
         position: absolute;
@@ -397,14 +507,14 @@
         position: absolute;
         width: 40%;
         right: 5%;
-        top: 520px;
+        top: 550px;
         font-size: 1em;
     }
     .s5Trecho3{
         position: absolute;
         width: 40%;
         left: 10%;
-        top: 520px;
+        top: 550px;
         font-size: 1.1em;
     }
     .s5Carrossel{
@@ -417,6 +527,7 @@
 /* posicionamento do arquivo do Serviço 6*/
     .containerS6{
         position: relative;
+        padding-bottom: 1000px;
     }
     .s6Trecho1{
         position: absolute;
