@@ -38,7 +38,6 @@
     a{
         font-size: .6em;
     }
-    
     h2{
         font-size: 1.6em;
     }
@@ -289,8 +288,7 @@
         right: 5%;
         top: 40px;
         height: 450px ;
-    }
-    
+    }   
 /* posicionamento do arquivo Eventos Esportivos*/
     .posicaoTEE{
         text-align: center;
@@ -365,7 +363,7 @@
     }
 .posicaoTituloC{
     text-align: center;
-}
+    }
 /* posicionamento do arquivo do Serviço 1*/
     .containerS1{
         position: relative;

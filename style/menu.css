@@ -84,7 +84,6 @@ p{
         font-size: 2em;  
     }
 }
-
 @media screen and (min-width: 801px) and (max-width: 1000px){
     #botao-Voltar img{
         width: 25px; 

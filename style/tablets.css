@@ -292,7 +292,6 @@
         top: 30px;
         height: 400px ;
     }
-    
 /* posicionamento do arquivo Eventos Esportivos*/
     .posicaoTEE{
         text-align: center;
@@ -579,8 +578,8 @@
         position: absolute;
         width: 30%;
         left: 15%;
-       padding-top: 0%;
-       margin: -5px;
+        padding-top: 0%;
+        margin: -5px;
     }
     .rodapePosicao2{
         position: absolute;

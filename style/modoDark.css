@@ -80,11 +80,6 @@ body h2{
     color: var(--azulFonteLogo);
     text-shadow: 3px 3px 5px var(--sombra);
 }
-body h3{
-    color: var(--azulFonteLogo);
-    text-shadow: 3px 3px 5px var(--sombra);
-    font-size: 1.5em;
-}
 body p{
     color: var(--textoPreto);
 }
@@ -98,7 +93,6 @@ body li{
 p a:visited{
     color: var(--linkVisitado);
 }
-
 /*menu*/
 body.dark #areaServicos{
     color: var(--white);
@@ -145,14 +139,13 @@ li{
         border-radius: 10px; 
         color: var(--white); 
     }
-    
     .rodape a:hover{
         background-color: var(--black);
         padding: 10px;
         border-radius: 10px; 
         color: var(--white);
     }
-    .rodape a:hover{
+    .dark .rodape a:hover{
         background-color: var(--white);
         padding: 10px;
         border-radius: 10px; 
